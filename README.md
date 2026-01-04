@@ -54,13 +54,15 @@ git clone https://github.com/your-username/multi-pdf-rag-streamlit.git
 cd multi-pdf-rag-streamlit
 ```
 ### 2️⃣ Create a virtual environment (recommended)
+```
 conda create -n rag python=3.10
 conda activate rag
-
+```
 ### 3️⃣ Install dependencies
+```
 pip install -r requirements.txt
 (or copy env_template.txt → .env)
-
+```
 ---
 
 ## 🔐 Environment Variables
@@ -94,12 +96,12 @@ Forerunners of Evo-Devo?
 
 ## 🧩 Tech Stack
 
-Frontend: Streamlit
-LLM: Llama-3.3-70B (Groq)
-Embeddings: all-MiniLM-L6-v2
-Vector Database: ChromaDB
-Framework: LangChain
-Language: Python
+1. Frontend: Streamlit
+2. LLM: Llama-3.3-70B (Groq)
+3. Embeddings: all-MiniLM-L6-v2
+4. Vector Database: ChromaDB
+5. Framework: LangChain
+5. Language: Python
 
 ---
 
@@ -121,9 +123,9 @@ You are free to use, modify, and distribute it.
 
 ## 🙌 Acknowledgements
 
-Groq
-LangChain
-HuggingFace
-Streamlit
+1. Groq
+2. LangChain
+3. HuggingFace
+4. Streamlit
 
 ---
