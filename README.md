@@ -19,7 +19,7 @@ A **Streamlit-based multi-PDF document Question & Answer system** using
 
 ## 🏗️ Project Structure
 
-'''
+```
 ├── app.py # Streamlit app
 ├── rag_utility.py # PDF processing + RAG logic
 ├── requirements.txt # Dependencies
@@ -27,7 +27,7 @@ A **Streamlit-based multi-PDF document Question & Answer system** using
 ├── .gitignore
 ├── LICENSE
 └── README.md
-'''
+```
 
 ---
 
@@ -61,6 +61,8 @@ conda activate rag
 pip install -r requirements.txt
 (or copy env_template.txt → .env)
 
+---
+
 ## 🔐 Environment Variables
 Create a .env file in the root directory:
 ```
@@ -68,10 +70,13 @@ GROQ_API_KEY=your_groq_api_key_here
 ```
 You can refer to env_template.txt for guidance.
 
+---
+
 ## ▶️ Run the Application
-'''
+```
 streamlit run app.py
-'''
+```
+---
 
 ## 🧪 Example Usage
 
@@ -85,6 +90,8 @@ Forerunners of Evo-Devo?
 3. Click Answer
 4. Get structured Question → Answer results
 
+---
+
 ## 🧩 Tech Stack
 
 Frontend: Streamlit
@@ -94,6 +101,8 @@ Vector Database: ChromaDB
 Framework: LangChain
 Language: Python
 
+---
+
 ## 🌍 Deployment
 
 This application is ready to deploy on:
@@ -101,10 +110,14 @@ Streamlit Cloud
 Docker
 Any cloud VM (AWS / GCP / Azure)
 
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it.
+
+---
 
 ## 🙌 Acknowledgements
 
@@ -112,3 +125,5 @@ Groq
 LangChain
 HuggingFace
 Streamlit
+
+---
