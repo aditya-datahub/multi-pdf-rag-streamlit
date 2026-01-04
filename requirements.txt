@@ -1,0 +1,15 @@
+streamlit
+python-dotenv
+
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-groq
+
+chromadb
+
+torch==2.1.2
+sentence-transformers==2.2.2
+unstructured
+unstructured[pdf]
