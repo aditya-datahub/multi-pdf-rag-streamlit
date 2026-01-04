@@ -108,9 +108,9 @@ Forerunners of Evo-Devo?
 ## 🌍 Deployment
 
 This application is ready to deploy on:
-Streamlit Cloud
-Docker
-Any cloud VM (AWS / GCP / Azure)
+1. Streamlit Cloud
+2. Docker
+3. Any cloud VM (AWS / GCP / Azure)
 
 ---
 
